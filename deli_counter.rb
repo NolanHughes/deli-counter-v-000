@@ -8,7 +8,7 @@ def line(n)
       customer.insert(0, " #{counter}. ")
       counter += 1
     end
-    n.join!
+    joined = n.join
     puts "The line is currently:#{joined}"
   end
 end
