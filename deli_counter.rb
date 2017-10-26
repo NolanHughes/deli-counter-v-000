@@ -19,7 +19,7 @@ def take_a_number(n, name)
   #   puts "Welcome, #{name}. You are number 1 in line."
   # else
     puts "Welcome, #{name}. You are number #{name[]} in line."
-  end
+  # end
 end
 
 def now_serving(n)
