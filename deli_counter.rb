@@ -14,7 +14,7 @@ def line(n)
 end
 
 def take_a_number(n, name)
-  name << n
+  
   if n.length == 0
     puts "Welcome, #{name}. You are number 1 in line."
   else
