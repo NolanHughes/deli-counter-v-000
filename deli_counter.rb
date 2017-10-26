@@ -18,7 +18,7 @@ def take_a_number(n, name)
   # if n.length == 0
   #   puts "Welcome, #{name}. You are number 1 in line."
   # else
-    puts "Welcome, #{name}. You are number #{n[name]} in line."
+    puts "Welcome, #{name}. You are number #{n.index[name]} in line."
   # end
 end
 
