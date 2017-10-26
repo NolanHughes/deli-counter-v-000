@@ -4,13 +4,11 @@ def line(n)
     puts "The line is currently empty."
   else
     counter = 1
-
     n.collect do |customer|
       customer.insert(0, " #{counter}. ")
       counter += 1
     end
     joined = n.join
-
     puts "The line is currently:#{joined}"
   end
 end
