@@ -20,5 +20,8 @@ def take_a_number(n, name)
 end
 
 def now_serving(n)
-  
+  if n.length == 0
+    puts "There is nobody waiting to be served!"
+  else
+  end
 end
