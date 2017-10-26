@@ -14,7 +14,7 @@ def line(n)
 end
 
 def take_a_number(n, name)
-
+  puts "Welcome #{name}. You are number #{} in line."
 end
 
 def now_serving(n)
