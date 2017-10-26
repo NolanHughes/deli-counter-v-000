@@ -1,1 +1,24 @@
 # Write your code here.
+def line(n)
+  if n.length == 0
+    puts "The line is currently empty."
+  else
+    counter = 1
+
+    n.collect do |customer|
+      customer.insert(0, " #{counter}. ")
+      counter += 1
+    end
+    n.join
+
+    puts "The line is currently:#{n}"
+  end
+end
+
+def take_a_number(n, name)
+
+end
+
+def now_serving(n)
+
+end
